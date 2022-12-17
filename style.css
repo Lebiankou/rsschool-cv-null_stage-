@@ -4,8 +4,21 @@ body {
     
 }
 div {
-    margin-left:35%;
-    font-weight: bold;
+    position: relative;
+        top: 70%;
+        left: 40%;
+        margin-right: 50%;
+    }
+
+        
+}
+nav {
+    position:absolute;
+    max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border: none;
 }
 
 nav li{
@@ -21,6 +34,12 @@ h2 {
     
 }
 section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    top: 0;
+    left: 0;
+    overflow: auto;
     border: solid 1px;
     margin: 1em;
     padding:3%;
