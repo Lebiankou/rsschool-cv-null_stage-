@@ -4,22 +4,16 @@ body {
     
 }
 div {
-    position: relative;
-        top: 70%;
-        left: 40%;
-        margin-right: 50%;
-    }
+    display: grid;
+    place-items: center;
+}
 
         
-}
+
 nav {
-    position:absolute;
-    max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        border: none;
-}
+    display: grid;
+    place-items: center;
+ }
 
 nav li{
         display:inline-block;
@@ -34,6 +28,7 @@ h2 {
     
 }
 section {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     width: 6em
@@ -46,18 +41,11 @@ section {
 }
 
 footer {
-    
     display: flex;
     float:right;
-    width: 400px;
-    
+    width:55%;
 }
-footer p {
-    width: 200px; height: 100px;
-    display:flex-wrap;
-    font-size: 30px;
-    font-style: bold;
-}
+
 a {
     color: black;
     font-weight: bold;
@@ -75,3 +63,7 @@ pre {
     line-height:1.5em;
     font-size: 19px;
 }
+main{
+    display: grid;
+    place-items: center;
+} 
